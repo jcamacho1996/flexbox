@@ -1,6 +1,7 @@
 .header {
     display: flex;
-    
+    justify-content: space-between;
+    padding: 5px;
 }
 
 .logo{
@@ -10,6 +11,7 @@
     font-style: italic;
     font-weight: 600;
     margin: 0%;
+    display: flex;
 }
 
 ul {
@@ -17,11 +19,35 @@ ul {
     display: flex;
     gap: 20px;
     justify-content: start;
-    margin: 0%;
-    
+    margin:0%;
+    padding:0;
 }
 
 a {
+    display: flex;
     text-decoration: none;
     color: purple;
+}
+
+.notifications,
+.profile-image {
+    display:flex;
+    background-color: purple;
+    color: aliceblue;
+    font-family:monospace;
+    font-size: 12px;
+    align-items: flex-end;
+}
+
+.notifications {
+    align-items: center;
+    padding: 8px 24px;
+    border-radius: 15px;
+    border: none;
+}
+
+.profile-image{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
