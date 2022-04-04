@@ -10,3 +10,6 @@ Common header style exercise.
 
 For exercise number 4, I made a common section for an informational website. 
 <a href="img/flex4.png">Solution 4</a>
+
+Exercise number 5 has been the hardest one yet. After many attempts to edit the css file I realized my error was in the html file where I mistakenly added a closing div tag that wasn't necessary
+ <a href="img/flex5.png">Solution 5</a>
