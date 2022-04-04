@@ -25,7 +25,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0%;}
+    flex-shrink: 0%;
+}
 .header {
     font-weight: bold;
     display: flex;
@@ -41,33 +42,29 @@ body {
     font-size: 12px;
     display: flex;
     justify-content: center;
-    gap: 16px;
+    margin-bottom: 16px;
     }
 
-.continue {
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+button.continue {
     background-color: royalblue;
     color: white;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center ;
-    max-height: 32px;
+
     border: 1px solid royalblue;
     font-size: 10px;
-    padding: 8px 16px;
+    
 }
 
-.cancel {
+button.cancel {
     background-color: white;
-    border-radius: 10px;
-    display: flex;
-    justify-content:center ;
-    align-items: center;
-    max-height: 32px;
     border: 1px solid #ddd;
     color: royalblue;
-    font-size: 10px;
-    padding: 8px 16px;
+    font-size: 10px;   
 }
 
 .close-button {
