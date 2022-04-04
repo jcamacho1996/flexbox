@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+    }
+
+.text {
+    display: flex;
+    font-size: small;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    }
