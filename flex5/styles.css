@@ -1,6 +1,9 @@
+html, body {
+    height: 100%;
+}
 body {
     background-color: gray;
-    align-items: center;
+    margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -32,7 +35,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 7px;
+    margin-bottom: 8px;
     font-size: 16px;
 
 }
@@ -53,18 +56,15 @@ button {
 button.continue {
     background-color: royalblue;
     color: white;
-    border-radius: 10px;
-
     border: 1px solid royalblue;
-    font-size: 10px;
-    
+
 }
 
 button.cancel {
     background-color: white;
     border: 1px solid #ddd;
     color: royalblue;
-    font-size: 10px;   
+    
 }
 
 .close-button {
