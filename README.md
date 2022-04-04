@@ -6,4 +6,4 @@ In this next exercise I'll use different css styles to create a simple header
 <a href="img/flex2.png">Solution 2</a>
 
 Common header style exercise.
-<a href="img/flex3.png>
+<a href="img/flex3.png">Solution 3</a>
