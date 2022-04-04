@@ -7,3 +7,6 @@ In this next exercise I'll use different css styles to create a simple header
 
 Common header style exercise.
 <a href="img/flex3.png">Solution 3</a>
+
+For exercise number 4, I made a common section for an informational website. 
+<a href="img/flex4.png">Solution 4</a>
