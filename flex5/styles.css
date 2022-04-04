@@ -2,6 +2,13 @@ body {
     background-color: gray;
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
 }
 
 .modal{
@@ -9,5 +16,21 @@ body {
     flex-direction: column;
     background-color: white;
     border-radius: 8px;
+    
+}
+
+.icon {
+    background-color: lightblue;
+    border-radius: 50%;
+    
+    width: 42px;
+    height: 42px;
+    color: royalblue;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    font-weight: 800;
+    font-size: 25px;
+    
     
 }
