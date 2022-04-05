@@ -72,7 +72,7 @@ button {
   display: flex;
   background-color: #eeeeee;
   justify-content: space-between;
-  
+  padding: 16px;
   
 }
 
