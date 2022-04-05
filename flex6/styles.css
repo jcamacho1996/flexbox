@@ -55,11 +55,13 @@ img {
 }
 
 input {
-  display: flex;
+  
   margin-bottom: 1rem;
   border: 1px solid #ddd ;
   border-radius: 16px;
   width: 450px;
-  
+}
+
+buttons {
 
 }
