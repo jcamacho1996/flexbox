@@ -55,13 +55,16 @@ img {
 }
 
 input {
-  
   margin-bottom: 1rem;
   border: 1px solid #ddd ;
   border-radius: 16px;
   width: 450px;
 }
 
-buttons {
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 8px 16px;
+  width: fit-content;
 
 }
