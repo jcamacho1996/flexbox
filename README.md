@@ -16,3 +16,7 @@ Exercise number 5 has been the hardest one yet. After many attempts to edit the 
 
 Exercise 6 had me recreate a main page with a footer included. 
 <a href="img/flex6.png">Solution 6</a>
+
+In exercise 7, I recreated a typical website layout. Mistakenly placed a div tag but learned my lesson in the end. 
+
+<a href="img/flex7.png">Solution 7</a>
