@@ -12,3 +12,20 @@ body {
     padding: 16px;
     align-items: center;
 }
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 300px;   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
