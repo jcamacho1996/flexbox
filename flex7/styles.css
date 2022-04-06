@@ -4,7 +4,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    flex:1;
 }
 
 .header {
@@ -13,7 +12,9 @@ body {
     font-weight: 900;
     font-size: 32px;
     padding: 16px;
+    justify-content: center;
     align-items: center;
+    
 }
 
 .sidebar {
@@ -24,8 +25,7 @@ body {
     padding: 16px; 
     margin: 0%;
     flex-shrink: 0;
-    
-    
+    justify-content: left;
 }
 
 a {
@@ -34,8 +34,13 @@ a {
     font-size: 24px;
 }
 
-li {
+ul {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
+}
+
+li {
     margin-bottom: 16px;
 }
 
@@ -49,10 +54,10 @@ li {
 
 .container {
     display: flex;
-    padding: 32px;
     flex-wrap: wrap;
+    padding: 32px;
     margin: 16px;  
-}
+} 
 
 .footer {
     display: flex;
@@ -62,3 +67,7 @@ li {
     justify-content: center;
 }
 
+.container2 {
+    flex: 1;
+    display: flex;
+}
