@@ -180,6 +180,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #091e19;
 }
 .container3 {
     display: flex;
@@ -216,7 +217,7 @@ footer {
 .neon-button,
 .neon-button::before,
 .neon-button::after {
-    box-sizing: border-box;
+    
 }
 
 
@@ -230,8 +231,21 @@ footer {
     padding: .25em 1em;
     border-radius: .25em;
     text-shadow: 
-    0 0 0.125em hsl(0 0% 100% / 0.5),
+    0 0 0.125em hsl(0 0% 100% / 0.2),
     0 0 0.125em currentColor;
     
+    box-shadow: inset 0 0 .5em 0 var(--clr-neon), 
+    0 0 .5em 0 var(--clr-neon);
+    position: relative;
+}
+
+.neon-button::before {
+    content: "";
+    position: absolute;
+    background-color: red;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
