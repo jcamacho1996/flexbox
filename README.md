@@ -23,4 +23,4 @@ In exercise 7, I recreated a typical website layout. Mistakenly placed a div tag
 
 This is my first site built entirely off of what I've learned:
 
-<img src="./img/finalwebsite.png>
+<img src="img/finalwebsite.png>
