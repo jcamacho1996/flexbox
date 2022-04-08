@@ -21,6 +21,6 @@ In exercise 7, I recreated a typical website layout. Mistakenly placed a div tag
 
 <a href="img/flex7.png">Solution 7</a>
 
-This is my first site built entirely off of what I've learned:
+<strong>This is my first site built entirely off of what I've learned:<strong>
 
-<img src="img/finalwebsite.png>
+<a href="img/finalwebsite.png"><strong>WEBSITE<strong></a>
