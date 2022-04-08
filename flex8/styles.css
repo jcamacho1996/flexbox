@@ -22,11 +22,6 @@ ul {
     padding: 8px;
 }
 
-.links {
-   
-    
-}
-
 li {
     list-style-type: none;
 }
@@ -37,14 +32,50 @@ a {
     font-size: 8px;
 }
 
+/* This */
+
+.intro {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.big {
+    height: 200px;
+    width: 200px;
+}
+.intro1 {
+    display: flex;
+    flex-direction: column;
+}
+
 img {
-    width: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 footer {
     background-color: #1F2937;
 }
 
-.img {
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 52px;
+    padding: 2rem
+}
 
+.exotic {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: fit-content;
 }
