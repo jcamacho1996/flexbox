@@ -20,3 +20,7 @@ Exercise 6 had me recreate a main page with a footer included.
 In exercise 7, I recreated a typical website layout. Mistakenly placed a div tag but learned my lesson in the end. 
 
 <a href="img/flex7.png">Solution 7</a>
+
+This is my first site built entirely off of what I've learned:
+
+<img src="./img/finalwebsite.png>
