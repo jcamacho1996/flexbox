@@ -9,8 +9,8 @@ body {
 
 header {
     display: flex;
-    background-color: #DB3068;
-    color: white;
+    background-color: #222c40;
+    color: rgb(238, 222, 175);
     align-items: center;
     justify-content: center;
     margin: 0%;
@@ -24,6 +24,7 @@ ul {
     display: flex;
     gap: 2rem;
     padding: 8px;
+    
 }
 
 li {
@@ -33,14 +34,14 @@ li {
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(238, 222, 175);
     font-size: 8px;
 }
 
 /* This */
 
 .intro {
-    background-color: #309fdb;
+    background-color: #222C40;
     color: white;
     display: flex;
     flex-direction: row;
@@ -106,7 +107,7 @@ img {
 }
 
 footer {
-    background-color: #1F2937;
+    background-color: black;
 }
 
 .container {
@@ -114,7 +115,7 @@ footer {
     justify-content: space-evenly;
     gap: 52px;
     padding: 2rem;
-    background-color:#DB3068
+    background-color: rgb(44, 43, 43);
 }
 
 .exotic {
@@ -122,7 +123,7 @@ footer {
     justify-content: center;
     margin: 0;
     padding: 1rem;
-    background-color:#DB3068;
+    background-color: rgb(44, 43, 43);
     font-size: 36px;
     font-family: 'Codystar';
     color: white;
@@ -143,7 +144,7 @@ footer {
 }
 
 .review {
-    background-color: #309fdb;
+    background-color: #091e19;
     margin: 0;
     padding: 4rem;
     display: flex;
@@ -174,3 +175,63 @@ footer {
 .container2 > .text3 {
     font-style: italic;
 }
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 50px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #091e19;
+}
+
+.container3 > *:nth-child(1) {
+    flex: 1 1 70%;
+    min-width: 25ch;
+    justify-content: center;
+}
+
+.container3 > *:nth-child(2) {
+    flex: 1 1 30%;
+    min-width: 15ch;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+/* For button styling */
+.neon-button {
+    --clr-neon: hsl(317 100% 54%);
+    --clr-bg: hsl(323 21% 16%);
+    
+}
+
+.neon-button,
+.neon-button::before,
+.neon-button::after {
+    box-sizing: border-box;
+}
+
+
+.neon-button {
+    display: inline-block;
+    cursor: pointer;
+    border: currentColor .125em solid;
+    background-color: transparent;
+    color: var(--clr-neon);
+    font-size: 1rem;
+    padding: .25em 1em;
+    border-radius: .25em;
+    text-shadow: 
+    0 0 0.125em hsl(0 0% 100% / 0.5),
+    0 0 0.125em currentColor;
+    
+}
+
