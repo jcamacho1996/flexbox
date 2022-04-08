@@ -214,6 +214,12 @@ footer {
 
 
 
+.space {
+    height: 59px;
+    color: rgb(44, 43, 43);
+    background-color: rgb(44, 43, 43);
+}
+
 
 
 /* For button styling */
