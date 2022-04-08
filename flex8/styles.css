@@ -36,35 +36,63 @@ a {
 /* This */
 
 .intro {
-    background-color: #1F2937;
+    background-color: #1F2940;
     color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 20px;
 }
 
 .content{
      display: flex;
      flex-wrap: wrap;
-
+     align-items: center;
+     background-color:
+    
 }
 
 .content > *:nth-child(1) {
     flex: 1 1 70%;
     min-width: 25ch;
+    justify-content: center;
 }
 
 .content > *:nth-child(2) {
     flex: 1 1 30%;
-
+    min-width: 15ch;
+    align-items: center;
 }
 
+.text1 {
+    font-weight: bolder;
+    padding: 1rem;
+}
 
+.text2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    max-width: 250px;
+    padding: 1rem;
+    
+}
 .big {
-    height: 200px;
-    width: 200px;
+    min-height: 200px;
+    min-width: 200px;
 }
 
+.col1 {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+.intro1 {
+    margin: 1rem;
+}
 
 
 img {
